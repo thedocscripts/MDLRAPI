@@ -1,0 +1,31 @@
+{
+  "name": "mdlrapi",
+  "version": "1.0.0",
+  "description": "Mdlr Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedocscripts/MDLRAPI.git"
+  },
+  "keywords": [
+    "MDLR",
+    "XUMM",
+    "WEB3"
+  ],
+  "author": "Thedoc By MDLR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedocscripts/MDLRAPI/issues"
+  },
+  "homepage": "https://github.com/thedocscripts/MDLRAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15",
+    "xumm-sdk": "^1.1.5"
+  }
+}
